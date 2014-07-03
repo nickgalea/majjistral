@@ -22,11 +22,22 @@ public final class R {
         public static final int activity_vertical_margin=0x7f040001;
     }
     public static final class drawable {
-        public static final int ic_launcher=0x7f020000;
+        public static final int home_events=0x7f020000;
+        public static final int home_games=0x7f020001;
+        public static final int home_info=0x7f020002;
+        public static final int home_pik=0x7f020003;
+        public static final int home_points=0x7f020004;
+        public static final int home_title=0x7f020005;
+        public static final int home_walk=0x7f020006;
+        public static final int home_wildlife=0x7f020007;
+        public static final int ic_launcher=0x7f020008;
+        public static final int iphone_home_help=0x7f020009;
+        public static final int main_menu_background=0x7f02000a;
     }
     public static final class id {
-        public static final int action_settings=0x7f080001;
+        public static final int action_settings=0x7f080002;
         public static final int container=0x7f080000;
+        public static final int imageView1=0x7f080001;
     }
     public static final class layout {
         public static final int activity_main=0x7f030000;
