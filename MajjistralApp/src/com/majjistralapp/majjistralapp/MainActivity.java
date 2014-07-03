@@ -1,17 +1,18 @@
 package com.majjistralapp.majjistralapp;
 
 import android.app.Activity;
-import android.app.ActionBar;
 import android.app.Fragment;
+import android.content.Intent;
 import android.os.Bundle;
 import android.view.LayoutInflater;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
+import android.view.View.OnClickListener;
 import android.view.ViewGroup;
-import android.os.Build;
+import android.widget.ImageButton;
 
-public class MainActivity extends Activity {
+public class MainActivity extends Activity implements OnClickListener{
 
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
@@ -21,7 +22,18 @@ public class MainActivity extends Activity {
 		if (savedInstanceState == null) {
 			getFragmentManager().beginTransaction()
 					.add(R.id.container, new PlaceholderFragment()).commit();
+			
 		}
+		
+		ImageButton b = (ImageButton)findViewById(R.id.imageButton1);
+		b.setOnClickListener(new OnClickListener(){
+			public void onClick(View v){
+				Intent intent;
+				intent = new Intent(getApplicationContext(), WildLifeGuide.class);
+				startActivity(intent);
+			}
+		});
+		
 	}
 
 	@Override
@@ -44,6 +56,16 @@ public class MainActivity extends Activity {
 		return super.onOptionsItemSelected(item);
 	}
 
+	@Override
+	public void onClick(View v){
+		int source = v.getId();
+		Intent intent;
+		if (source==R.id.imageButton1){ 
+			intent = new Intent(getApplicationContext(), WildLifeGuide.class);
+			startActivity(intent);
+		}
+	}
+	
 	/**
 	 * A placeholder fragment containing a simple view.
 	 */
