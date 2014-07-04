@@ -48,11 +48,11 @@ public final class R {
         public static final int info=0x7f080005;
         public static final int middlebottomarea=0x7f080003;
         public static final int middletop=0x7f080002;
-        public static final int photobottom=0x7f08000f;
+        public static final int photobottom=0x7f080010;
         public static final int phototop=0x7f08000d;
         public static final int points=0x7f080007;
         public static final int standalonebottom=0x7f08000e;
-        public static final int textView1=0x7f080010;
+        public static final int titlehome=0x7f08000f;
         public static final int toparea=0x7f080001;
         public static final int walk=0x7f08000b;
         public static final int wildlifeguide=0x7f08000c;

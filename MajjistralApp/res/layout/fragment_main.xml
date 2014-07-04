@@ -19,7 +19,7 @@
         android:layout_height="145dp"
         android:layout_alignParentRight="true"
       
-        android:layout_marginTop="125dp" />
+        android:layout_marginTop="135dp" />
 
 	<View
         android:id="@+id/middletop"
@@ -28,7 +28,7 @@
         
         android:layout_alignParentRight="true"
       
-        android:layout_marginTop="210dp" />
+        android:layout_marginTop="220dp" />
 
     
 	<View
@@ -36,7 +36,7 @@
         android:layout_width="match_parent"
         android:layout_height="100dp"
         
-        android:layout_marginTop="330dp"
+        android:layout_marginTop="340dp"
         android:layout_alignParentRight="true" />
             
     <View
@@ -132,26 +132,27 @@
         android:layout_alignLeft="@+id/bottomarea"
         android:layout_below="@+id/middlebottomarea" />
 
-    <ImageView
-        android:id="@+id/photobottom"
-        android:layout_width="100dp"
-        android:layout_height="100dp"
-        android:layout_alignLeft="@+id/walk"
-        android:layout_below="@+id/middletop"
-        android:layout_marginLeft="17dp"
-        android:src="@drawable/home_photo" />
-
     <TextView
-        android:id="@+id/textView1"
+        android:id="@+id/titlehome"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_alignParentTop="true"
       
         android:text="WHAT WOULD YOU LIKE TO DO TODAY?"
-        android:typeface="sans"
-        android:textSize="35dp"
+        
+        android:textSize="45dp"
         android:textColor="#484848"
         android:textAppearance="?android:attr/textAppearanceLarge" 
         android:gravity="center"/>
+
+    <ImageView
+        android:id="@+id/photobottom"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_alignBottom="@+id/standalonebottom"
+        android:layout_marginBottom="38dp"
+        android:layout_marginLeft="36dp"
+        android:layout_toRightOf="@+id/info"
+        android:src="@drawable/home_photo" />
   
 </RelativeLayout>

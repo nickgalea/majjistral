@@ -1,18 +1,9 @@
 package com.majjistralapp.majjistralapp;
 
 import android.app.Activity;
-import android.app.Fragment;
-import android.content.Intent;
+import android.graphics.Typeface;
 import android.os.Bundle;
-import android.view.LayoutInflater;
-import android.view.Menu;
-import android.view.MenuItem;
-import android.view.View;
-import android.view.View.OnClickListener;
-import android.view.ViewGroup;
-import android.widget.Button;
-import android.widget.ImageButton;
-import android.widget.ImageView;
+import android.widget.TextView;
 
 public class MainActivity extends Activity{
 
@@ -20,6 +11,12 @@ public class MainActivity extends Activity{
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.fragment_main);
+		
+		Typeface myTypeface = Typeface.createFromAsset(getAssets(), "fonts/BebasNeue.otf");
+	    TextView myTextView = (TextView)findViewById(R.id.titlehome);
+	    myTextView.setTypeface(myTypeface);
+	    
+	    myTextView.setLineSpacing(1, 0.8f);
 		
 	/*	ImageView btnNextScreen = (ImageView)findViewById(R.id.imageView8);
 		 
