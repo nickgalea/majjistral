@@ -38,17 +38,24 @@ public final class R {
         public static final int main_menu_background=0x7f02000d;
     }
     public static final class id {
-        public static final int action_settings=0x7f08000a;
+        public static final int action_settings=0x7f080011;
+        public static final int bottomarea=0x7f080004;
+        public static final int camera=0x7f080006;
         public static final int container=0x7f080000;
-        public static final int imageView1=0x7f080001;
-        public static final int imageView2=0x7f080008;
-        public static final int imageView3=0x7f080007;
-        public static final int imageView4=0x7f080006;
-        public static final int imageView5=0x7f080002;
-        public static final int imageView6=0x7f080003;
-        public static final int imageView7=0x7f080005;
-        public static final int imageView8=0x7f080004;
-        public static final int imageView9=0x7f080009;
+        public static final int events=0x7f08000a;
+        public static final int games=0x7f080009;
+        public static final int help=0x7f080008;
+        public static final int info=0x7f080005;
+        public static final int middlebottomarea=0x7f080003;
+        public static final int middletop=0x7f080002;
+        public static final int photobottom=0x7f08000f;
+        public static final int phototop=0x7f08000d;
+        public static final int points=0x7f080007;
+        public static final int standalonebottom=0x7f08000e;
+        public static final int textView1=0x7f080010;
+        public static final int toparea=0x7f080001;
+        public static final int walk=0x7f08000b;
+        public static final int wildlifeguide=0x7f08000c;
     }
     public static final class layout {
         public static final int activity_main=0x7f030000;

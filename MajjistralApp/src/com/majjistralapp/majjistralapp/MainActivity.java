@@ -21,7 +21,7 @@ public class MainActivity extends Activity{
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.fragment_main);
 		
-		ImageView btnNextScreen = (ImageView)findViewById(R.id.imageView8);
+	/*	ImageView btnNextScreen = (ImageView)findViewById(R.id.imageView8);
 		 
         //Listening to button event
         btnNextScreen.setOnClickListener(new View.OnClickListener() {
@@ -32,7 +32,7 @@ public class MainActivity extends Activity{
                 startActivity(nextScreen);
  
             }
-        });
+        });*/
 		
 			
 	}
