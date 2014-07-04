@@ -19,7 +19,7 @@
         android:layout_height="145dp"
         android:layout_alignParentRight="true"
       
-        android:layout_marginTop="135dp" />
+        android:layout_marginTop="125dp" />
 
 	<View
         android:id="@+id/middletop"
@@ -28,7 +28,7 @@
         
         android:layout_alignParentRight="true"
       
-        android:layout_marginTop="220dp" />
+        android:layout_marginTop="210dp" />
 
     
 	<View
@@ -36,7 +36,7 @@
         android:layout_width="match_parent"
         android:layout_height="100dp"
         
-        android:layout_marginTop="340dp"
+        android:layout_marginTop="330dp"
         android:layout_alignParentRight="true" />
             
     <View
@@ -149,10 +149,9 @@
         android:id="@+id/photobottom"
         android:layout_width="100dp"
         android:layout_height="100dp"
-        android:layout_alignBottom="@+id/standalonebottom"
-        android:layout_marginBottom="38dp"
-        android:layout_marginLeft="36dp"
-        android:layout_toRightOf="@+id/info"
+        android:layout_alignBottom="@+id/bottomarea"
+        android:layout_alignLeft="@+id/walk"
+        android:layout_marginLeft="22dp"
         android:src="@drawable/home_photo" />
   
 </RelativeLayout>
